@@ -1,0 +1,48 @@
+* {margin: 0; padding: 0;}
+
+.content{
+    display: flex;
+    margin: 100px 50px 50px 50px;
+    font-family: sans-serif;
+}
+
+#area{
+    width: 456px;
+    border: 1px solid #000;
+    margin: 0 auto;
+    font-size: 0;
+}
+
+.cell{
+    width: 150px;
+    height: 150px;
+    line-height: 130px;
+    text-align: center;
+    display: inline-block;
+    font-size: 100px;
+    border: 1px solid #000;
+    cursor: pointer;
+    vertical-align: middle;
+    transition: background .1s;
+}
+
+.cell:hover{
+    background-color: #F1F1F1;
+}
+
+.currentPlayer{
+    width: 130px;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.table{
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+}
+
+.table *{
+    margin: 10px 10px 10px 10px;
+}
